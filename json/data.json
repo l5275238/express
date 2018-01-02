@@ -1,0 +1,68 @@
+{
+  "storeName":"龙格游泳教育中心",
+  "signNum":{
+    "today":"23","thisMonth":"230","lastMonth":"125"
+  },
+  "signSum": {
+    "today":"233.00","thisMonth":"2300.00","lastMonth":"1250.00"
+  },
+  "signHour": {
+    "today":"23","thisMonth":"230","lastMonth":"125"
+  },
+  "consumSum": {
+    "thisMonth":"14484","lastMonth":"14484"
+  },
+  "consumHour": {
+    "thisMonth":"230","lastMonth":"125"
+  },
+  "SalesGoals": {
+    "thisMonth":"13000","lastMonth":"12500"
+  },
+  "arranged":"20",
+  "noArrange":"15",
+  "visitManage":{
+    "orderNum":"100","inviteNum":"80","visitedNum":"55","noVisit":"25"
+  },
+  "vipManage":{
+    "classVip":"100","noScheduling":"80","absenceClass":"50","newVip":"39","due":"30","birthVip":"42"
+  },
+  "contractManage":{
+    "noCheck":"100","noPay":"80","due":"50","expire":"39","newSign":"30","renew":"42"
+  },
+  "clueManage":[
+    {"name":"CALLIN","number":"100"},
+    {"name":"WALKIN","number":"100"},
+    {"name":"转介绍","number":"100"}
+  ],
+  "mktData":[
+    {"name":"活动1","number":"120"},
+    {"name":"活动2","number":"100"},
+    {"name":"活动3","number":"40"},
+    {"name":"活动4","number":"20"},
+    {"name":"活动5","number":"80"}
+  ],
+  "netinData":[
+    {"name":"百度","number":"120"},
+    {"name":"美团","number":"100"},
+    {"name":"点评","number":"40"}
+  ],
+  "courseList":[
+    
+  ],
+  "perforAll":{
+    "name":"本月小计","finished":"25000","goals":"52522","newSign":"2322","renewSum":"3333","renewNum":"200","signed":"2000","perfor":"1000"
+  },
+  "consultPerfor": [
+    {"name":"李老师","finished":"25000","goals":"52522","newSign":"2322","renewSum":"3333","renewNum":"200","signed":"2000","perfor":"1000"},
+    {"name":"王老师","finished":"25000","goals":"52522","newSign":"2322","renewSum":"2333","renewNum":"200","signed":"2000","perfor":"10"},
+    {"name":"张老师","finished":"25000","goals":"52522","newSign":"2322","renewSum":"3533","renewNum":"200","signed":"200","perfor":"100"},
+    {"name":"富国基金","finished":"25000","goals":"52522","newSign":"2322","renewSum":"1736","renewNum":"200","signed":"200","perfor":"100"}
+  ],
+  "clueFollow":[
+    {"name":"新客户","number":"120"},
+    {"name":"已分配","number":"101"},
+    {"name":"新客预约","number":"46"},
+    {"name":"正在跟踪","number":"25"},
+    {"name":"回收线索","number":"84"}
+  ]
+}
