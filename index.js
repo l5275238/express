@@ -4,6 +4,7 @@ var app = express();
 var detail=require('./route/detail');
 var file=require('./route/file')
 var erro=require('./middleware/erro')
+var proxy = require('http-proxy-middleware');
 //跨域
 app.all('*', function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -31,6 +32,11 @@ app.use(function(err, req, res, next) {
     erro:err.stack
   })
 });
+app.use('/api', proxy({
+  target: 'http://58.87.111.56:9096/',
+  changeOrigin: true
+}));
+
 var server=app.listen(3030,function () {
   console.log('成功');
 })

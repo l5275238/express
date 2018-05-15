@@ -7,3 +7,4 @@
 *.iml
 .idea/inspectionProfiles/
 .idea/workspace.xml
+node_modules/
